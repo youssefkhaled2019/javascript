@@ -1,0 +1,2 @@
+This example uses // to prevent execution of one of the code lines:
+code is suitable for code testing.

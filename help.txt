@@ -1,0 +1,43 @@
+The JavaScript syntax defines two types of values:
+    Fixed values
+       -Fixed values are called Literals.
+    Variable values
+       -Variable values are called Variables.  
+
+declare    =>   var, let and const
+equal sign =>  x=3
+
+-------------------------------------------------------------
+A JavaScript name must begin with:
+    A letter (A-Z or a-z)
+    A dollar sign ($)
+    Or an underscore (_)
+Subsequent characters may be letters, digits, underscores, or dollar signs.
+
+
+
+JavaScript and Camel Case
+  -Historically, programmers have used different ways of joining multiple words into one variable name:
+    -Hyphens: first-name, last-name, master-card, inter-city. // Hyphens are not allowed in JavaScript. They are reserved for subtractions.
+    -Underscore: first_name, last_name, master_card, inter_city.
+    -Upper Camel Case (Pascal Case):FirstName, LastName, MasterCard, InterCity.
+    -Lower Camel Case: firstName, lastName, masterCard, interCity.  <----- //JavaScript programmers tend to use camel case that starts with a lowercase letter
+
+-------------------------------------------------------------
+JavaScript Variables can be declared in 4 ways:
+
+    Automatically
+    Using var
+    Using let
+    Using const
+
+
+
+-------------------------------------------------------------
+When to Use var, let, or const?
+    1. Always declare variables
+    2. Always use const if the value should not be changed
+    3. Always use const if the type should not be changed (Arrays and Objects)
+    4. Only use let if you can't use const
+    5. Only use var if you MUST support old browsers.
+-------------------------------------------------------------
